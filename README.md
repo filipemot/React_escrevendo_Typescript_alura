@@ -15,7 +15,7 @@ https://cursos.alura.com.br/course/react-modernizando-escrever-typescript
 
 - [X] Aula 1 - Criando o projeto 
 - [X] Aula 2 - Componentização
-- [ ] Aula 3 - Usando CSS
+- [X] Aula 3 - Usando CSS
 - [ ] Aula 4 - Props
 - [ ] Aula 5 - State
 - [ ] Aula 6 - Selecionando um item

@@ -17,8 +17,8 @@ function Lista() {
                 <li>
                     <h3>{tarefa.tarefa}</h3>
                     <span>{tarefa.tempo}</span>
-                    </li>
-                ))
+                </li>
+            ))
         }
         </ul>
       </aside>

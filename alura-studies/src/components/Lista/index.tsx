@@ -12,12 +12,14 @@ function Lista() {
       <aside>
         <h2> Estudos do dia </h2>
         <ul>
-        {tarefas.map((tarefa, index) => (
-        <li>
-            <h3>{tarefa.tarefa}</h3>
-            <span>{tarefa.tempo}</span>
-            </li>
-        ))}
+        {
+            tarefas.map((tarefa, index) => (
+                <li>
+                    <h3>{tarefa.tarefa}</h3>
+                    <span>{tarefa.tempo}</span>
+                    </li>
+                ))
+        }
         </ul>
       </aside>
     )

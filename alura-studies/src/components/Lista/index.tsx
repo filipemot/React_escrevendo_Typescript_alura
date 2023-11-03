@@ -17,7 +17,7 @@ function Lista() {
         <ul>
         {
             tarefas.map((tarefa, index) => (
-                <li>
+                <li key={index}>
                     <h3>{tarefa.tarefa}</h3>
                     <span>{tarefa.tempo}</span>
                 </li>

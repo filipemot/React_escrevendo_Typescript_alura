@@ -13,7 +13,7 @@ https://cursos.alura.com.br/course/react-modernizando-escrever-typescript
 
 # Aulas 
 
-- [ ] Aula 1 - Criando o projeto 
+- [x] Aula 1 - Criando o projeto 
 - [ ] Aula 2 - Componentização
 - [ ] Aula 3 - Usando CSS
 - [ ] Aula 4 - Props

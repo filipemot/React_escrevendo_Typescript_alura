@@ -19,4 +19,4 @@ https://cursos.alura.com.br/course/react-modernizando-escrever-typescript
 - [X] Aula 4 - Props
 - [X] Aula 5 - State
 - [X] Aula 6 - Selecionando um item
-- [ ] Aula 7 - Finalizando a aplicação
+- [X] Aula 7 - Finalizando a aplicação

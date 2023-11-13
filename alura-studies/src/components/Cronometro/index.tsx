@@ -18,13 +18,22 @@ export default function Cronometro({ selecionado }: Props) {
     }
   }, [selecionado])
 
+  function regressiva(tempo: number = 0) {
+    setTimeout(() => {
+      if(tempo > 0) {
+        setTempo(tempo - 1);
+        return regressiva(tempo - 1);
+      }
+    }, 1000)
+  }
+
   return (
     <div className={style.cronometro}>
       <p className={style.titulo}>Escolha um card e inicie o Cronômetro</p>
       <div className={style.relogioWrapper}>
         <Relogio tempo={tempo} />
       </div>
-      <Botao>
+      <Botao onClick={() => regressiva(tempo)} >
         Começar!
       </Botao>
     </div>
